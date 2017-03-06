@@ -1,0 +1,17 @@
+/* 
+  localize.strings
+  WordNotification
+
+  Created by 11397236 on 3/6/17.
+  Copyright © 2017 SuriHome. All rights reserved.
+*/
+
+"NEW" = "Mới";
+"IN_PROGRESS" = "Đang học";
+"DONE" = "Đã học";
+"VOCABULARY" = "Từ vựng";
+"MEANING" = "Nghĩa";
+"EXAMPLE" = "Ví dụ";
+"NEW_VOCABULARY" = "Từ mới";
+"MESSAGE_ADD_NEW_VOCABULARY_SUCCESS" = "Thêm từ mới thành công!";
+"ADD" = "Thêm";

@@ -1,0 +1,17 @@
+/* 
+  localize.strings
+  WordNotification
+
+  Created by 11397236 on 3/6/17.
+  Copyright © 2017 SuriHome. All rights reserved.
+*/
+
+"NEW" = "New";
+"IN_PROGRESS" = "Learning";
+"DONE" = "Remember";
+"VOCABULARY" = "Vocabulary";
+"MEANING" = "Meaning";
+"EXAMPLE" = "Example";
+"NEW_VOCABULARY" = "NEW VOCABULARY";
+"MESSAGE_ADD_NEW_VOCABULARY_SUCCESS" = "Add new vocabulary success!";
+"ADD" = "Add";

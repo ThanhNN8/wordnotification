@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="96" id="KGk-i7-Jjw" customClass="ItemVocabularyCell" customModule="WordNotification" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="96"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <frame key="frameInset" width="414" height="95"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Word" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5nM-aI-29e">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="5PO-qQ-BEx"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Word" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DPG-cP-hZQ" userLabel="Mean">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="19.5" id="N4x-Kt-a6m"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Word" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lBt-9A-VfW" userLabel="Example">
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ett-Rq-Q8T">
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="Pgc-4C-d0x"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="lBt-9A-VfW" firstAttribute="leading" secondItem="DPG-cP-hZQ" secondAttribute="leading" id="0sd-uq-HDk"/>
+                    <constraint firstItem="lBt-9A-VfW" firstAttribute="trailing" secondItem="DPG-cP-hZQ" secondAttribute="trailing" id="850-68-wch"/>
+                    <constraint firstItem="DPG-cP-hZQ" firstAttribute="top" secondItem="5nM-aI-29e" secondAttribute="bottom" constant="1" id="AM6-HX-ofq"/>
+                    <constraint firstItem="lBt-9A-VfW" firstAttribute="top" secondItem="DPG-cP-hZQ" secondAttribute="bottom" constant="1" id="DOS-Uf-pR7"/>
+                    <constraint firstItem="DPG-cP-hZQ" firstAttribute="trailing" secondItem="5nM-aI-29e" secondAttribute="trailing" id="JQg-7g-eyg"/>
+                    <constraint firstItem="5nM-aI-29e" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="5" id="KEz-tU-FY8"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="ett-Rq-Q8T" secondAttribute="bottom" constant="-8" id="KkW-Xy-cTU"/>
+                    <constraint firstItem="DPG-cP-hZQ" firstAttribute="leading" secondItem="5nM-aI-29e" secondAttribute="leading" id="KtD-2U-oyu"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="lBt-9A-VfW" secondAttribute="bottom" priority="900" constant="5" id="N5I-41-AeP"/>
+                    <constraint firstItem="ett-Rq-Q8T" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="-8" id="NpN-LI-7d1"/>
+                    <constraint firstItem="5nM-aI-29e" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="8" id="cgn-ed-nb3"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="ett-Rq-Q8T" secondAttribute="trailing" constant="-8" id="fll-zx-xuQ"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="5nM-aI-29e" secondAttribute="trailing" constant="8" id="uU8-Eq-MLv"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="lb_example" destination="lBt-9A-VfW" id="vcD-vy-5jG"/>
+                <outlet property="lb_mean" destination="DPG-cP-hZQ" id="pwa-Sq-Ngh"/>
+                <outlet property="lb_word" destination="5nM-aI-29e" id="I1L-gi-sxB"/>
+            </connections>
+            <point key="canvasLocation" x="81" y="80"/>
+        </tableViewCell>
+    </objects>
+</document>
